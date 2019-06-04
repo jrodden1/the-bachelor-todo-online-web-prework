@@ -67,5 +67,5 @@ def get_average_age_for_season(data, season)
     averageRaw = (averageRaw + num).to_f
   end
   averageRaw = averageRaw / ageArr.length
-  averageAge = averageRaw.round 
+  averageAge = averageRaw.round
 end

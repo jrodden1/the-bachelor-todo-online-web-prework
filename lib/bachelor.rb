@@ -44,6 +44,7 @@ def get_occupation(data, hometown)
     contestantArr.each do |attribute, values|
       if attribute["hometown"] == hometown
         occupation = attribute["occupation"]
+        break
       end
     end
   end

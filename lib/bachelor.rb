@@ -5,7 +5,8 @@ def get_first_name_of_season_winner(data, season)
     if season == seasonName
       contestantArr.each do |attribute, values|
         if attribute["status"] == "Winner"
-          winner = attribute["name"]
+          winnerFullArr = attribute["name"].split
+          winner = winnerFullArr[0]
         end
       end
     end

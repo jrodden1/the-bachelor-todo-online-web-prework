@@ -53,7 +53,7 @@ end
 
 def get_average_age_for_season(data, season)
   averageAge = nil
-  ageArr == []
+  ageArr = []
 
   data.each do |seasonName, contestantArr|
     if season == seasonName

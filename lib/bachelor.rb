@@ -65,7 +65,8 @@ def get_average_age_for_season(data, season)
   averageRaw = 0
   ageArr.each do |num|
     averageRaw = (averageRaw + num).to_f
-
   end
   averageRaw = averageRaw / ageArr.length
-  averageAge
+
+  
+  averageAge = averageRaw.round 

@@ -3,9 +3,7 @@ def get_first_name_of_season_winner(data, season)
   winner = ""
   data.each do |seasonName, contestantArr|
     if season == seasonName
-      binding.pry
       contestantArr.each do |attribute, values|
-        binding.pry
         if "status" == "Winner"
           winner = attribute["name"]
         end

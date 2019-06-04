@@ -31,7 +31,7 @@ def count_contestants_by_hometown(data, hometown)
   data.each do |seasonName, contestantArr|
     contestantArr.each do |attribute, values|
       if attribute["hometown"] == hometown
-        counter = += 1
+        counter += 1
       end
     end
   end

@@ -7,7 +7,7 @@ def get_first_name_of_season_winner(data, season)
       contestantArr[0].each do |contestantHash, attributes|
         if attributes == "status"
           winner = attributes["status"]
-          
+
         end
       end
     end
